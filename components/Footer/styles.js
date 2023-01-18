@@ -32,4 +32,20 @@ export const Styled = {
 		text-align: center;
 		color: white;
 	`,
+	Button: styled.span`
+		border: 4px solid white;
+		padding: 2% 2%;
+		width: 30%;
+		text-align: center;
+		color: white;
+		font-size: 2rem;
+		position: absolute;
+		left: 36%;
+		bottom: 10%;
+		border-radius: 100px;
+		background-color: ${UTILS.COLORS.VIOLET};
+		@media ${UTILS.SCREEN.MOBILE} {
+			bottom: 5%;
+			font-size: 1.5rem;
+		}
 };
