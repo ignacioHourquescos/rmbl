@@ -37,9 +37,11 @@ const Footer = (props) => {
 				RMBL
 				<AiOutlineTrademark />
 			</Styled.Copyright>
+			<Styled.Copyright>	
 				<Link 
 					href="https://drive.google.com/drive/folders/1ueb5YZst9ssR98amBNNEbnSOmvXFv5Li" passHref={true}> Lite Paper 
-				</Link>		
+				</Link>
+			</Styled.Copyright>
 		</Styled.Inner>
 	);
 };
